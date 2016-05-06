@@ -8,12 +8,32 @@
 
 #import "ViewController.h"
 
+@interface ViewController() <NSTableViewDelegate, NSTableViewDataSource>
+
+@property (weak) IBOutlet NSTableView *tableView;
+
+@end
+
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
 
-    // Do any additional setup after loading the view.
+-(void)awakeFromNib{
+}
+
+-(CGFloat)tableView:(NSTableView *)tableView heightOfRow:(NSInteger)row{
+    return 44;
+}
+
+-(NSTableRowView *)tableView:(NSTableView *)tableView rowViewForRow:(NSInteger)row{
+    NSTableRowView *view = [[NSTableRowView alloc] init];
+    return view;
+}
+
+-(NSInteger)numberOfRowsInTableView:(NSTableView *)tableView{
+    return 19;
 }
 
 - (void)setRepresentedObject:(id)representedObject {
