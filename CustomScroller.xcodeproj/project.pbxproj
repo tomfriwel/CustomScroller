@@ -14,6 +14,7 @@
 		E2AD15F21CDC8C2300584B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AD15F01CDC8C2300584B88 /* Main.storyboard */; };
 		E2AD15FD1CDC8C2300584B88 /* CustomScrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD15FC1CDC8C2300584B88 /* CustomScrollerTests.m */; };
 		E2AD16081CDC8C2300584B88 /* CustomScrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD16071CDC8C2300584B88 /* CustomScrollerUITests.m */; };
+		E2AD16171CDC91A200584B88 /* CustomScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD16161CDC91A200584B88 /* CustomScroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		E2AD16031CDC8C2300584B88 /* CustomScrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomScrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AD16071CDC8C2300584B88 /* CustomScrollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomScrollerUITests.m; sourceTree = "<group>"; };
 		E2AD16091CDC8C2300584B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AD16151CDC91A200584B88 /* CustomScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScroller.h; sourceTree = "<group>"; };
+		E2AD16161CDC91A200584B88 /* CustomScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 		E2AD15E41CDC8C2300584B88 /* CustomScroller */ = {
 			isa = PBXGroup;
 			children = (
+				E2AD16151CDC91A200584B88 /* CustomScroller.h */,
+				E2AD16161CDC91A200584B88 /* CustomScroller.m */,
 				E2AD15E51CDC8C2300584B88 /* AppDelegate.h */,
 				E2AD15E61CDC8C2300584B88 /* AppDelegate.m */,
 				E2AD15EB1CDC8C2300584B88 /* ViewController.h */,
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AD16171CDC91A200584B88 /* CustomScroller.m in Sources */,
 				E2AD15ED1CDC8C2300584B88 /* ViewController.m in Sources */,
 				E2AD15EA1CDC8C2300584B88 /* main.m in Sources */,
 				E2AD15E71CDC8C2300584B88 /* AppDelegate.m in Sources */,
