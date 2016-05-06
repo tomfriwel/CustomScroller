@@ -20,9 +20,6 @@
     [super viewDidLoad];
 }
 
--(void)awakeFromNib{
-}
-
 -(CGFloat)tableView:(NSTableView *)tableView heightOfRow:(NSInteger)row{
     return 44;
 }
