@@ -15,7 +15,7 @@
 		E2AD15FD1CDC8C2300584B88 /* CustomScrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD15FC1CDC8C2300584B88 /* CustomScrollerTests.m */; };
 		E2AD16081CDC8C2300584B88 /* CustomScrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD16071CDC8C2300584B88 /* CustomScrollerUITests.m */; };
 		E2AD16171CDC91A200584B88 /* CustomScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD16161CDC91A200584B88 /* CustomScroller.m */; };
-		E2AD161A1CDC9A4200584B88 /* 屏幕快照 2016-05-06 17.20.31.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AD16191CDC9A4200584B88 /* 屏幕快照 2016-05-06 17.20.31.png */; };
+		E2AD161D1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AD161C1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 		E2AD16091CDC8C2300584B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2AD16151CDC91A200584B88 /* CustomScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScroller.h; sourceTree = "<group>"; };
 		E2AD16161CDC91A200584B88 /* CustomScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScroller.m; sourceTree = "<group>"; };
-		E2AD16191CDC9A4200584B88 /* 屏幕快照 2016-05-06 17.20.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-05-06 17.20.31.png"; sourceTree = "<group>"; };
+		E2AD161C1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-05-06 17.20.31.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		E2AD15D91CDC8C2300584B88 = {
 			isa = PBXGroup;
 			children = (
-				E2AD16181CDC9A2F00584B88 /* Screenshot */,
+				E2AD161B1CDCA25500584B88 /* Screenshot */,
 				E2AD15E41CDC8C2300584B88 /* CustomScroller */,
 				E2AD15FB1CDC8C2300584B88 /* CustomScrollerTests */,
 				E2AD16061CDC8C2300584B88 /* CustomScrollerUITests */,
@@ -145,12 +145,12 @@
 			path = CustomScrollerUITests;
 			sourceTree = "<group>";
 		};
-		E2AD16181CDC9A2F00584B88 /* Screenshot */ = {
+		E2AD161B1CDCA25500584B88 /* Screenshot */ = {
 			isa = PBXGroup;
 			children = (
-				E2AD16191CDC9A4200584B88 /* 屏幕快照 2016-05-06 17.20.31.png */,
+				E2AD161C1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png */,
 			);
-			name = Screenshot;
+			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2AD15EF1CDC8C2300584B88 /* Assets.xcassets in Resources */,
-				E2AD161A1CDC9A4200584B88 /* 屏幕快照 2016-05-06 17.20.31.png in Resources */,
+				E2AD161D1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png in Resources */,
 				E2AD15F21CDC8C2300584B88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
