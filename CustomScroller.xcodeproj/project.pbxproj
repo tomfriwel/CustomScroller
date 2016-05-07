@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20070B61CDD866F0063AF5C /* ClearScrollerBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E20070B51CDD866F0063AF5C /* ClearScrollerBackgroundView.m */; };
+		E20070B81CDD86C60063AF5C /* screenshot0.png in Resources */ = {isa = PBXBuildFile; fileRef = E20070B71CDD86C60063AF5C /* screenshot0.png */; };
 		E2AD15E71CDC8C2300584B88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD15E61CDC8C2300584B88 /* AppDelegate.m */; };
 		E2AD15EA1CDC8C2300584B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD15E91CDC8C2300584B88 /* main.m */; };
 		E2AD15ED1CDC8C2300584B88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD15EC1CDC8C2300584B88 /* ViewController.m */; };
@@ -15,7 +17,7 @@
 		E2AD15FD1CDC8C2300584B88 /* CustomScrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD15FC1CDC8C2300584B88 /* CustomScrollerTests.m */; };
 		E2AD16081CDC8C2300584B88 /* CustomScrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD16071CDC8C2300584B88 /* CustomScrollerUITests.m */; };
 		E2AD16171CDC91A200584B88 /* CustomScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AD16161CDC91A200584B88 /* CustomScroller.m */; };
-		E2AD161D1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AD161C1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png */; };
+		E2AD161D1CDCA25500584B88 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AD161C1CDCA25500584B88 /* screenshot1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E20070B41CDD866F0063AF5C /* ClearScrollerBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearScrollerBackgroundView.h; sourceTree = "<group>"; };
+		E20070B51CDD866F0063AF5C /* ClearScrollerBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearScrollerBackgroundView.m; sourceTree = "<group>"; };
+		E20070B71CDD86C60063AF5C /* screenshot0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot0.png; sourceTree = "<group>"; };
 		E2AD15E21CDC8C2300584B88 /* CustomScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AD15E51CDC8C2300584B88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2AD15E61CDC8C2300584B88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,7 +58,7 @@
 		E2AD16091CDC8C2300584B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2AD16151CDC91A200584B88 /* CustomScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScroller.h; sourceTree = "<group>"; };
 		E2AD16161CDC91A200584B88 /* CustomScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScroller.m; sourceTree = "<group>"; };
-		E2AD161C1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-05-06 17.20.31.png"; sourceTree = "<group>"; };
+		E2AD161C1CDCA25500584B88 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 		E2AD15E41CDC8C2300584B88 /* CustomScroller */ = {
 			isa = PBXGroup;
 			children = (
+				E20070B41CDD866F0063AF5C /* ClearScrollerBackgroundView.h */,
+				E20070B51CDD866F0063AF5C /* ClearScrollerBackgroundView.m */,
 				E2AD16151CDC91A200584B88 /* CustomScroller.h */,
 				E2AD16161CDC91A200584B88 /* CustomScroller.m */,
 				E2AD15E51CDC8C2300584B88 /* AppDelegate.h */,
@@ -148,7 +155,8 @@
 		E2AD161B1CDCA25500584B88 /* Screenshot */ = {
 			isa = PBXGroup;
 			children = (
-				E2AD161C1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png */,
+				E20070B71CDD86C60063AF5C /* screenshot0.png */,
+				E2AD161C1CDCA25500584B88 /* screenshot1.png */,
 			);
 			path = Screenshot;
 			sourceTree = "<group>";
@@ -257,7 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2AD15EF1CDC8C2300584B88 /* Assets.xcassets in Resources */,
-				E2AD161D1CDCA25500584B88 /* 屏幕快照 2016-05-06 17.20.31.png in Resources */,
+				E20070B81CDD86C60063AF5C /* screenshot0.png in Resources */,
+				E2AD161D1CDCA25500584B88 /* screenshot1.png in Resources */,
 				E2AD15F21CDC8C2300584B88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20070B61CDD866F0063AF5C /* ClearScrollerBackgroundView.m in Sources */,
 				E2AD16171CDC91A200584B88 /* CustomScroller.m in Sources */,
 				E2AD15ED1CDC8C2300584B88 /* ViewController.m in Sources */,
 				E2AD15EA1CDC8C2300584B88 /* main.m in Sources */,
